@@ -1,0 +1,63 @@
+body {
+    background-image: url(https://images.pexels.com/photos/311039/pexels-photo-311039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    
+      background-size: cover;
+    font-family: sans-serif;
+    padding: 20px;
+  }
+div{
+    border-radius: 9px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+ 
+p{
+    font-style: italic;
+  }
+
+h1,p{
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+   background-image: url(https://images.pexels.com/photos/19670/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+   background-size: cover; 
+   margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+textarea {
+    width: 80%;
+    height:20px;
+    margin-bottom: 16px;
+    font-family: sans-serif;
+    border-radius: 5px;
+    
+}
+select{
+    width: 80%;
+    height:30px;
+    font-family: sans-serif;
+    border-radius: 5px;
+}
+
+.comment{
+    width: 80%;
+    height:60px;
+    margin-bottom: 16px;
+    font-family: sans-serif;
+    border-radius: 5px;
+}
