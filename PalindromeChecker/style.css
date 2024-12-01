@@ -8,10 +8,10 @@ h1{
     font-weight: bolder;
     font-size: 60px;
 }
-#div1{
+#result{
  background-color: beige;
  
- height: 180px;
+ height: 190px;
  width: 50%;
  align-items: center;
  border-radius: 17px;
@@ -19,16 +19,14 @@ h1{
  margin-top: 80px;
 }
 
-textarea{
-    width: 80%;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 35px;
-    
-    font-size:larger;
-    margin-left: 50px;
-    border-radius: 9px;
-    border-color: rgb(15, 15, 82);
-    border-width: 5px;
+input{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 60px;
+    margin-top: 20px;
+    height:49px;
+    font-size: larger;
+    border-radius: 7px;
+    width:80%;
 }
 button{
     height:50px;
@@ -38,4 +36,10 @@ button{
     border-radius: 17px;
     margin-left: 250px;
     margin-top: 20px;
+}
+label{
+    
+    margin-left: 60px;
+    color:rgb(7, 7, 36);
+    font-size: 25px;
 }

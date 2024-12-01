@@ -1,20 +1,10 @@
-function palindrome(n, reverse) {
-    let d = 0;
-    while (n > 0) {
-        d = n % 10;
-        reverse = reverse * 10 + d;
-        n = Math.floor(n / 10); 
-    }
-    return reverse;
-}
+const textInput= document.getElementById('text-input');
+const checkBtn=document.getElementById('check-btn');
 
-let reverse = 0;
-let n = parseInt(prompt("Enter Your Number:" )); 
-let inital = n;
-let ans = palindrome(n, reverse);
-
-if (ans === inital) {
-    console.log("YES! It is a Palindrome");
-} else {
-    console.log("NO! It is not a Palindrome");
-}
+checkBtn.addEventListener( 'click',function(){
+  if(textInput.value.trim()===''){
+    alert('Please Enter a value Before Submitting');
+  }else {
+                alert('Form submitted successfully!');
+            }
+})
