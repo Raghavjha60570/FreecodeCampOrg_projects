@@ -8,10 +8,10 @@ h1{
     font-weight: bolder;
     font-size: 60px;
 }
-#result{
+#resultContainer{
  background-color: beige;
  
- height: 190px;
+ height: 250px;
  width: 50%;
  align-items: center;
  border-radius: 17px;
@@ -42,4 +42,8 @@ label{
     margin-left: 60px;
     color:rgb(7, 7, 36);
     font-size: 25px;
+}
+p{
+    font-size: larger;
+    font-weight: bolder;
 }
