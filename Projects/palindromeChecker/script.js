@@ -3,7 +3,8 @@ const checkBtn = document.getElementById('check-btn');
 const resultDisplay=document.getElementById('result');
     
       function isPal(value){
-         let str =value.toString(); 
+        let str = value.toString().toLowerCase();
+
          let left=0 ;
          let right=str.length-1;
          while(left<right){
